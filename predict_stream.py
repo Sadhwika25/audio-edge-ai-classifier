@@ -78,7 +78,7 @@ def simulate_live_audio_stream(
         time.sleep(0.08)  # simulate buffer delay
 
     print("-" * 68)
-    print("[✓] Audio stream simulation completed.")
+    print("[+] Audio stream simulation completed.")
 
 
 if __name__ == "__main__":

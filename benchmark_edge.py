@@ -62,7 +62,7 @@ def main():
     print(f"{'P95 Latency (ms)':<28}{lat_fp32['p95_ms']:<20.2f}{lat_int8['p95_ms']:<20.2f}")
     print(f"{'Throughput (inferences/sec)':<28}{throughput_fp32:<20.1f}{throughput_int8:<20.1f}")
     print("=" * 70)
-    print("[✓] Edge AI Profiling completed successfully.")
+    print("[+] Edge AI Profiling completed successfully.")
 
 
 if __name__ == "__main__":

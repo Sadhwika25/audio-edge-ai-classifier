@@ -130,9 +130,9 @@ def main():
 
     elapsed = time.time() - start_time
     print("-" * 65, flush=True)
-    print(f"[✓] Training completed in {elapsed:.2f} seconds.", flush=True)
-    print(f"[✓] Best Validation Accuracy: {best_val_acc:.2f}%", flush=True)
-    print(f"[✓] Saved best model to: {best_checkpoint_path}", flush=True)
+    print(f"[+] Training completed in {elapsed:.2f} seconds.", flush=True)
+    print(f"[+] Best Validation Accuracy: {best_val_acc:.2f}%", flush=True)
+    print(f"[+] Saved best model to: {best_checkpoint_path}", flush=True)
 
 
 if __name__ == "__main__":
